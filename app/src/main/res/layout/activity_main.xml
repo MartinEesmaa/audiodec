@@ -11,5 +11,24 @@
         android:layout_height="wrap_content"
         android:text="Select Audio File"
         android:onClick="selectFile"/>
-    
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Note: This project is not finished yet." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Made by Martin Eesmaa (2025)" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Source code: https://github.com/MartinEesmaa/mediaextra" />
+
 </LinearLayout>
