@@ -1,4 +1,4 @@
-package com.martineesmaa.mediaextra
+package org.martineesmaa.audiodec
 
 import android.media.MediaCodec
 import android.media.MediaExtractor

@@ -1,4 +1,4 @@
-package com.martineesmaa.mediaextra
+package org.martineesmaa.audiodec
 
 import android.app.Activity
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.martineesmaa.mediaextra.R
 import java.io.File
 
 class MainActivity : AppCompatActivity() {
@@ -37,7 +38,11 @@ class MainActivity : AppCompatActivity() {
                 val outputPath = getOutputPath()
                 Thread {
                     val (extractor, format) = AudioExtractor.extractAudioFormat(this, it)
-                    AudioDecoder.decodeToPCM(extractor, format, outputPath) // Keep PCM extraction only
+                    AudioDecoder.decodeToPCM(
+                        extractor,
+                        format,
+                        outputPath
+                    ) // Keep PCM extraction only
                     Log.d("AudioExtractor", "File URI: $fileUri")
                     runOnUiThread { Toast.makeText(this, "PCM saved at $outputPath", Toast.LENGTH_LONG).show() }
                 }.start()

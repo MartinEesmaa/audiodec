@@ -1,4 +1,4 @@
-package com.martineesmaa.mediaextra.ui.theme
+package org.martineesmaa.audiodec.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
