@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mediaextra"
+rootProject.name = "AudioDec"
 include(":app")
  

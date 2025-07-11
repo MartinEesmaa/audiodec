@@ -8,7 +8,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.martineesmaa.mediaextra.R
+import org.martineesmaa.audiodec.R
 import java.io.File
 
 class MainActivity : AppCompatActivity() {

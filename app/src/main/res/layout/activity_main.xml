@@ -29,6 +29,6 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Source code: https://github.com/MartinEesmaa/mediaextra" />
+        android:text="Source code: https://github.com/MartinEesmaa/audiodec" />
 
 </LinearLayout>
